@@ -7,6 +7,8 @@ body {
 
 .vin-gradient{
   background: linear-gradient(#F9F6DE, #DEDCCE);
+  box-shadow:
+    0 0 20px 15px #F9F6DE;
 }
 
 .vin-font {
@@ -17,4 +19,12 @@ body {
   font-family: 'Playball';
   font-size: 32px;
   padding-top:10px;
+}
+
+.container {
+  background: linear-gradient(#F9F6DE, #DEDCCE);
+}
+
+img {
+  height: 100px;
 }

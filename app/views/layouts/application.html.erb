@@ -2,6 +2,9 @@
 <html>
 
 <head>
+  <%= favicon_link_tag "logo.png" %>
+
+
   <title>RestaurantMenu</title>
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track'=> true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track'=> true %>
@@ -11,7 +14,7 @@
 <%= render 'layouts/header' %>
 
 <body>
-  <div class="container vin-gradient">
+  <div class="container">
     <%= yield %>
   </div>
 </body>

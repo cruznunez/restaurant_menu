@@ -1,5 +1,7 @@
 class DishesController < ApplicationController
   def index
+    @courses = Course.all
+    @dishes = Dish.all
   end
 
   def show
