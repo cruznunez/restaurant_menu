@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'dishes3index'
+  root 'dishes#index'
 
   get 'dishes/show'
 
