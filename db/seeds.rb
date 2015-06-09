@@ -1,13 +1,13 @@
-Course.create(id: 1, name: 'Amuse-Gueules(Appetizers)')
-Course.create(id: 2, name: 'Charcuterie')
-Course.create(id: 3, name: 'Dessert')
-Course.create(id: 4, name: 'Fromage')
-Course.create(id: 5, name: 'Fruits de Mer')
-Course.create(id: 6, name: 'Garnitures')
-Course.create(id: 7, name: 'Moules')
-Course.create(id: 8, name: 'Plats Principaux')
-Course.create(id: 9, name: 'Salades')
-Course.create(id: 10, name: 'Steak Frites')
+Course.create(id: 1, name: 'Amuse-Gueules(Appetizers)', img_path: "appetizers.png")
+Course.create(id: 2, name: 'Charcuterie', img_path: "charcuterie.jpg")
+Course.create(id: 3, name: 'Dessert', img_path: "dessert.jpg")
+Course.create(id: 4, name: 'Fromage', img_path: "fromage.jpg")
+Course.create(id: 5, name: 'Fruits de Mer', img_path: "seafood.png")
+Course.create(id: 6, name: 'Garnitures', img_path: "sides.jpg")
+Course.create(id: 7, name: 'Moules', img_path: "moules.jpg")
+Course.create(id: 8, name: 'Plats Principaux', img_path: "maincourse.jpg")
+Course.create(id: 9, name: 'Salades', img_path: "salades.jpg")
+Course.create(id: 10, name: 'Steak Frites', img_path: "steakfrites.jpg")
 Dish.create(course_id: 1,
             name: "Assiette D'Olive",
             price: 3.95,
