@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20150608184145) do
 
   create_table "courses", force: :cascade do |t|
     t.string   "name"
+    t.string   "img_path"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -24,7 +25,6 @@ ActiveRecord::Schema.define(version: 20150608184145) do
     t.string   "name"
     t.float    "price"
     t.string   "description"
-    t.string   "img_path"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
